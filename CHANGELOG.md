@@ -51,6 +51,14 @@ keys remain all-access.
 
 - `headscale users rename` now sends the identifier of the matched user instead of the raw `--identifier` flag value, so renaming by name works again [#3442](https://github.com/juanfont/headscale/pull/3442)
 
+## 0.29.4 (202x-xx-xx)
+
+**Minimum supported Tailscale client version: v1.80.0**
+
+### Changes
+
+- Lowercase DNS extra record names so mixed-case records resolve [#3366](https://github.com/juanfont/headscale/pull/3366)
+
 ## 0.29.3 (2026-07-29)
 
 **Minimum supported Tailscale client version: v1.80.0**
